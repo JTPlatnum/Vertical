@@ -1,0 +1,142 @@
+/*START GENERAL STYLES*/
+* {
+		font-family: "Lato", arial, sans-serif;
+}
+
+p {
+	font-family: "Lato", arial, sans-serif;
+	font-size: 17px;
+}
+
+.text-vcenter {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+/*END GENERAL STYLES*/
+
+/*START HEADER STYLES*/
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-default .container-fluid {
+	background-color: black;
+}
+
+.navbar-default .container-fluid ul li {
+	color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #458B00;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+	text-shadow: none;
+}
+/*END HEADER STYLES*/
+
+
+/*START HERO STYLES*/
+.jumbotron {
+	margin-bottom: 0px;
+  	display: table;
+  	position: static;
+  	width: 100%;
+  	height: 625px;
+  	background: url(../images/about1carousel.png) no-repeat center center scroll;
+  	color: white;
+}
+/*END HERO STYLES*/
+
+
+
+/*START FOOTER STYLES*/
+#footer-container div {
+	position: relative;
+	text-align: left;
+	padding-left: 30px;
+	background: #42454e;
+/*	text-transform: uppercase;*/
+}
+
+#footer-container div #mc_embed_signup {
+	font-size: 14px;
+	color: #7e8b8c;
+	padding-bottom: 10px;
+	/*font-weight: bold;*/
+	line-height: 150%;
+	padding-left: 0px;
+	margin-left:-60px;
+}
+
+#footer-container div #mc_embed_signup input#mce-EMAIL, #footer-container div #mc_embed_signup input#mce-FNAME, #footer-container div #mc_embed_signup input#mce-LNAME {
+	/*margin-left: 40px;*/
+	/*margin-left: 82px;*/
+	/*margin-left: 87px;*/
+	width: 90%;
+	margin: 5px 5px 5px 0px;
+	border-radius: 5px;
+	height: 32px;
+	border: none;
+}
+
+
+#footer-container div #mc_embed_signup input[type=submit] {
+	width: 90%;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	background: #fb9500;
+	font-size: 16px;
+	border: none;
+}
+
+
+#footer-container ul, #footer-container ul li, #footer-container p, #footer-container a {
+	list-style-type: none;
+	font-size: 14px;
+	color: #7e8b8c;
+	padding-bottom: 10px;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+#footer-container p {
+	color: #7e8b8c;
+}
+
+#footer-container ul {
+	margin-left: -43px;
+}
+
+#footer-container h3 {
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-top: 55px;
+}
+
+#footer-container span {
+	font-size: 14px;
+	color: #a9ddda;
+	text-transform: none;
+}
+
+#copyright {
+	background: #373a41;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 60px;
+	line-height: 150%;
+}
+ 
+ #copyright p {
+	font-size: 14px;
+	font-weight: normal;
+ }
+
+/*END FOOTER STYLES*/
