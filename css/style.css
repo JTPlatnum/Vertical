@@ -13,9 +13,15 @@ p {
 }
 
 .text-vcenter {
-	display: table-cell;
 	vertical-align: middle;
-	float: none;
+}
+
+.top-buffer-big { 
+	margin-top: 50px; 
+}
+
+.top-buffer-mini {
+	margin-top: 20px;
 }
 
 		/*START HEADER STYLES*/
@@ -113,6 +119,12 @@ p {
   	background-size: cover;
   	color: white;
 }
+
+.jumbotron .text-vcenter, .icon-container .text-vcenter {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
 /*END HOME PAGE STYLES*/
 
 /*START PRODUCTS PAGE STYLES*/
@@ -135,3 +147,27 @@ table, table tr, table tr th, table tr td {
   padding: 10px 0px;
   border: 1px solid #eeeeee;
   }
+
+.icon-image img {
+	max-height: 50px;
+}
+
+.recipe-image img {
+ 	width: 100%;
+ 	padding: 30px;
+}
+
+.recipe-name {
+	margin-top: 50px;
+}
+
+.product-recipe-hidden {
+	/*display: none;*/
+}
+
+.product-recipe-hidden ul li {
+	list-style-type: none;
+	text-align: left;
+}
+
+
