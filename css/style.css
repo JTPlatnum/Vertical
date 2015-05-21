@@ -150,6 +150,8 @@ table, table tr, table tr th, table tr td {
 
 .icon-image img {
 	max-height: 50px;
+	display: inline-block;
+	vertical-align: text-bottom;
 }
 
 .recipe-image img {
@@ -169,5 +171,3 @@ table, table tr, table tr th, table tr td {
 	list-style-type: none;
 	text-align: left;
 }
-
-
