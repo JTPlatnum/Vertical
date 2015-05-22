@@ -120,9 +120,10 @@ p {
   	color: white;
 }
 
-.jumbotron .text-vcenter, .icon-container .text-vcenter {
+.jumbotron .text-vcenter{
 	display: table-cell;
 	vertical-align: middle;
+	text-align: center;
 	float: none;
 }
 /*END HOME PAGE STYLES*/
@@ -148,10 +149,17 @@ table, table tr, table tr th, table tr td {
   border: 1px solid #eeeeee;
   }
 
+.icon-image p {
+	/*display: inline-block; */
+	/*position: relative;*/
+}
+
 .icon-image img {
 	max-height: 50px;
 	display: inline-block;
-	vertical-align: text-bottom;
+	vertical-align: middle;
+	margin: 10px;
+	/*position: absolute;*/
 }
 
 .recipe-image img {
