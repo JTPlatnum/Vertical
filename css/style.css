@@ -39,7 +39,9 @@ span.open-recipe {
 	display: block;
 }
 
-		/*START HEADER STYLES*/
+
+
+/*START HEADER STYLES*/
 .navbar {
 	margin-bottom: 0px;
 	border-radius: 0px;
@@ -64,8 +66,21 @@ span.open-recipe {
 .navbar-brand, .navbar-nav>li>a {
 	text-shadow: none;
 }
-		/*END HEADER STYLES*/
-		/*START FOOTER STYLES*/
+
+.navbar ul.dropdown-menu li.product-select {
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.navbar-nav .open .dropdown-menu {
+	background: #ccc;
+}
+/*END HEADER STYLES*/
+
+
+
+
+/*START FOOTER STYLES*/
 .footer-container {
 	/*margin-bottom: 70px;*/
 	/*position: absolute;*/
@@ -123,7 +138,19 @@ span.open-recipe {
  }
 
 		/*END FOOTER STYLES*/
+
+
+
 /*END GENERAL STYLES*/
+
+
+
+
+
+
+
+
+
 
 main.product-main {
 	/*display: none;*/
