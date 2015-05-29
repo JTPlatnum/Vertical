@@ -22,11 +22,27 @@ p {
 
 .top-buffer-mini {
 	margin-top: 20px;
+	display: block;
+}
+
+span.open-recipe {
+	cursor: pointer;
+	font-size: 1.5em;
+}
+
+.product-recipe-hidden {
+	display: none;
+	background-color: #cccccc;
+}
+
+.product-recipe-hidden.active {
+	display: block;
 }
 
 		/*START HEADER STYLES*/
 .navbar {
 	margin-bottom: 0px;
+	border-radius: 0px;
 }
 
 .navbar-default .container-fluid {
@@ -109,6 +125,14 @@ p {
 		/*END FOOTER STYLES*/
 /*END GENERAL STYLES*/
 
+main.product-main {
+	display: none;
+}
+
+main.product-main.active {
+	display: block;
+}
+
 /*START HOME PAGE STYLES*/
 .jumbotron {
 	margin-bottom: 0px;
@@ -129,6 +153,16 @@ p {
 /*END HOME PAGE STYLES*/
 
 /*START PRODUCTS PAGE STYLES*/
+.apricots.product-image {
+	margin: 0px;
+	display: table;
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	display: block;
+	background: url(../images/products/1_Headers/5_apricots.png) no-repeat fixed center center;
+}
+
 .figs.product-image {
 	margin: 0px;
 	display: table;

@@ -10,22 +10,27 @@ $( document ).ready(function() {
         e.preventDefault();
     });
 
-    $('#thumbRecipeOne .getRecipe').on('click', function(){
-        $('#hiddenRecipeOne').toggleClass('active');
-    });
-
-    $('#thumbRecipeTwo .getRecipe').on('click', function(){
-        $('#hiddenRecipeTwo').toggleClass('active');
-    });
+// start open menu items
 
 
-    $('#thumbRecipeThree .getRecipe').on('click', function(){
-        $('#hiddenRecipeThree').toggleClass('active');
+// end open menu items
+
+
+
+//start open recipes
+    $('.apricots.open-recipe').on('click', function(){
+        $('.apricots.product-recipe-hidden').toggleClass('active');
     });
 
-    $('#thumbRecipeFour .getRecipe').on('click', function(){
-        $('#hiddenRecipeFour').toggleClass('active');
+
+    $('.figs.open-recipe').on('click', function(){
+        $('.figs.product-recipe-hidden').toggleClass('active');
     });
+
+//end open recipes
+
+
+
 
 });
 
