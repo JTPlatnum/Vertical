@@ -8,14 +8,6 @@ p {
 	font-size: 17px;
 }
 
-body {
-	padding-bottom: 250px;
-}
-
-body.home {
-	padding-bottom: 220px;
-}
-
 .text-center {
 	text-align: center;
 }
@@ -35,7 +27,8 @@ body.home {
 
 span.open-recipe {
 	cursor: pointer;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+	font-size: 1em;
 }
 
 .product-recipe-hidden {
@@ -88,6 +81,11 @@ span.open-recipe {
 .navbar-nav .open .dropdown-menu {
 	background: #ccc;
 }
+
+.navbar-inverse {
+	background-color: #333;
+	border-color: #333;
+}
 /*END HEADER STYLES*/
 
 
@@ -118,22 +116,7 @@ body.our-company .copyright-container {
 	position: relative;
 }*/
 
-.footer-upper {
-	position: absolute;
-	bottom: 60px;
-	width: 100%;
-	text-align: left;
-	background: #42454e;
-}
 
-.footer-upper ul, .footer-upper ul li, .footer-upper p, .footer-upper a {
-	list-style-type: none;
-	font-size: 14px;
-	color: #7e8b8c;
-	padding-bottom: 10px;
-	font-weight: bold;
-	line-height: 150%;
-}
 
 .footer-container ul {
 	margin-left: -43px;
@@ -142,6 +125,9 @@ body.our-company .copyright-container {
 .footer-container h3 {
 	color: #ffffff;
 	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .footer-container span.thanks {
@@ -150,14 +136,27 @@ body.our-company .copyright-container {
 	text-transform: none;
 }
 
+.footer-upper {
+	background: #333;
+	padding-top: 35px;
+}
+
+.footer-upper ul, .footer-upper ul li, .footer-upper p, .footer-upper a {
+	list-style-type: none;
+	font-size: 14px;
+	color: #fff;
+	padding-bottom: 10px;
+	line-height: 150%;
+	text-align: left;
+}
+
 .copyright-container {
-	background: #373a41;
+	background: #333;
 	color: #ffffff;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	height: 60px;
 	line-height: 150%;
-	position: absolute;
 	bottom: 0px;
 	text-align: center;
 }
@@ -178,16 +177,40 @@ body.our-company .copyright-container {
 
 /*START HOME PAGE STYLES*/
 body.home .jumbotron {
-  background: url(../images/index1kiwi.png) no-repeat center center fixed; 
+/*  background: url(../images/index1kiwi.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
   /*height: 100%;*/
 } 
 
+header {
+	position: relative;
+	width: 100%;
+	min-height: 550px;
+	text-align: center;
+	color: #fff;
+	background-image: url(../images/index1kiwi.png);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	margin-bottom: -10px;
+}
+
+header .header-content {
+	padding-top: 15%;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+
 .container.jumbotron {
-	background-color: transparent;
+	/*background-color: transparent;*/
 	/*min-height: 500px;*/
 }
 
@@ -211,19 +234,30 @@ body.home .jumbotron {
 	background: black;
 	border: black;
 	border: 2px solid black;
+	padding: 20px 30px;
+	font-size: 12px;
 }
 
 .btn.btn-primary.btn-lg.home-button:hover {
 	background: white;
 	color: black;
+	border: 2px solid white;
 }
 
 /*END HOME PAGE STYLES*/
 
 
 /*START PRODUCTS PAGE STYLES*/
+.product-main {
+	display: none;
+}
+
+.product-main.active {
+	display: block;
+}
+
 .product-image {
-	margin: 0px;
+	margin: 10px 0px 0px 0px;
 	width: 100%;
 	height: 600px;
 	display: block;
@@ -284,8 +318,7 @@ table, table tr, table tr th, table tr td {
   }
 
 .icon-image p {
-	/*display: inline-block; */
-	/*position: relative;*/
+	margin-top: 10px;
 }
 
 .icon-image img {
@@ -303,10 +336,22 @@ table, table tr, table tr th, table tr td {
 
 .recipe-name {
 	margin-top: 50px;
+	text-align: left;
+}
+
+.open-recipe {
+	font-size: 14px;
 }
 
 .product-recipe-hidden {
-	/*display: none;*/
+	display: none;
+	padding: 80px 10px; 
+	text-align: left;
+}
+
+.product-recipe-hidden p {
+	text-align: left;
+	font-size: 14px;
 }
 
 .product-recipe-hidden ul li {
@@ -318,7 +363,16 @@ main#pineapple_quince {
 	margin-bottom: 250px;
 }
 
+.region-one, .region-two {
+	padding-right: 0px;
+	padding-left: 0px; 
+	margin-right: 0px;
+	margin-left: 0px;
+}
 
+.region-image {
+	margin: 0px;
+}
 /*END PRODUCTS PAGE STYLES*/
 
 
