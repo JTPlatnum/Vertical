@@ -21,7 +21,7 @@ p {
 }
 
 .top-buffer-mini {
-	margin-top: 20px;
+	margin-top: 35px;
 	display: block;
 }
 
@@ -325,7 +325,7 @@ table, table tr, table tr th, table tr td {
 	max-height: 50px;
 	display: inline-block;
 	vertical-align: middle;
-	margin: 10px;
+	margin: -3px 10px;
 	/*position: absolute;*/
 }
 
@@ -394,4 +394,8 @@ body.our-company .carousel-indicators li {
 
 body.our-company .carousel-indicators li.active {
 	background-color: green;
+}
+
+.big-bottom {
+	margin-bottom: 65px;
 }
