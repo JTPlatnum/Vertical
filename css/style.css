@@ -69,6 +69,10 @@ span.open-recipe {
 	border-color: black;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	margin-left: 5px;
+}
+
 .navbar-brand, .navbar-nav>li>a {
 	text-shadow: none;
 }
@@ -85,6 +89,18 @@ span.open-recipe {
 .navbar-inverse {
 	background-color: #333;
 	border-color: #333;
+	background-image: none;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a {
+	background-image: none;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: #333;
 }
 /*END HEADER STYLES*/
 
@@ -120,6 +136,10 @@ body.our-company .copyright-container {
 
 .footer-container ul {
 	margin-left: -43px;
+}
+
+.footer-container ul li i {
+	margin-right: 10px;
 }
 
 .footer-container h3 {
@@ -257,7 +277,7 @@ header h1 {
 }
 
 .product-image {
-	margin: 10px 0px 0px 0px;
+	margin: 0px;
 	width: 100%;
 	height: 600px;
 	display: block;
@@ -283,7 +303,7 @@ header h1 {
 }
 
 .plums.product-image {
-	background: url(../images/products/1_Headers/4_plums.png) no-repeat center center;
+	background: url(../images/products/1_Headers/4_plums.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -386,6 +406,14 @@ body.our-company .carousel-caption, body.pride .carousel-caption {
 	left: auto;
 	right: auto;
 	padding: 30px;
+}
+
+h2, h3 {
+	margin-bottom: 30px;
+}
+
+body.our-company .carousel-caption p {
+	margin-bottom: 20px;
 }
 
 body.our-company .carousel-indicators li {
