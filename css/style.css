@@ -427,3 +427,26 @@ body.our-company .carousel-indicators li.active {
 .big-bottom {
 	margin-bottom: 65px;
 }
+
+
+
+/*MAILCHIMP STYLING*/
+#mc_embed_signup label {
+	color: #fff;
+	font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#mc_embed_signup input {
+	margin-top: 20px;
+	color: black;
+}
+
+#mc_embed_signup input#mc-embedded-subscribe {
+	color: black;
+	background: white; 
+	border: none;
+}
+
