@@ -45,6 +45,11 @@ span.open-recipe {
 
 
 /*START HEADER STYLES*/
+
+ul.nav.navbar-nav {
+	margin-top: 10px;
+}
+
 .navbar {
 	margin-bottom: 0px;
 	border-radius: 0px;
